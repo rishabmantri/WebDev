@@ -1,0 +1,13 @@
+for get method
+programmers?FirstName=S&LastName=g&color=red&languages=python&days=Tu,We
+
+Days:
+Mo
+Tu
+We
+Th
+Fr
+Sa
+Su
+
+Note: programmers.xml file will be created in the bin.

@@ -1,0 +1,6 @@
+Execute the Mysql_Lab3Db.sql.
+The properties folder > rdbm.properties contains the information about the database connection you can modify those as per your system
+
+In the rest api endpoint 4 to update the phone entry please provide(complete object phonenumber, fname and lname) all details to be updated. That is firstname and lastname.
+
+In the rest api endpoint to create phoneentry. Give a plain text input of phonenumber firstname lastname all these fields are necessary. No phonebook can be menioned during this time. Phonebook can be updated later.

@@ -1,0 +1,12 @@
+create table PhoneEntryDb1.PhoneEntry (
+   phonenumber varchar (255),
+   firstname varchar (255),
+   lastname varchar (255)
+);
+
+
+insert into PhoneEntryDb1.PhoneEntry values ('11','rishab','mantri');
+insert into PhoneEntryDb1.PhoneEntry values (’22’,’R’,’M’);
+insert into PhoneEntryDb1.PhoneEntry values (’33’,’A’,’B’);
+insert into PhoneEntryDb1.PhoneEntry values (’44’,’Z’,’X’);
+insert into PhoneEntryDb1.PhoneEntry values (’55’,’O’,’P’);

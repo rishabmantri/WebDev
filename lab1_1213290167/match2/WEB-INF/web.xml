@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+<servlet>
+<servlet-name>Page1</servlet-name>
+<servlet-class>Page1</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Page1</servlet-name>
+<url-pattern>/Page1</url-pattern>
+</servlet-mapping>
+
+    <servlet>
+        <servlet-name>Page2</servlet-name>
+        <servlet-class>Page2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Page2</servlet-name>
+        <url-pattern>/Page2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Page3</servlet-name>
+        <servlet-class>Page3</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Page3</servlet-name>
+        <url-pattern>/Page3</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Page4</servlet-name>
+        <servlet-class>Page4</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Page4</servlet-name>
+        <url-pattern>/Page4</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Page5</servlet-name>
+        <servlet-class>Page5</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Page5</servlet-name>
+        <url-pattern>/Page5</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>programmers</servlet-name>
+        <servlet-class>programmers</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>programmers</servlet-name>
+        <url-pattern>/programmers</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newprogrammer</servlet-name>
+        <servlet-class>newprogrammer</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>newprogrammer</servlet-name>
+        <url-pattern>/newprogrammer</url-pattern>
+    </servlet-mapping>
+</web-app>

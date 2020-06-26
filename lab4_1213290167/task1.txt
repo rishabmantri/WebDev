@@ -1,0 +1,43 @@
+1. Use qraphiql
+ graphql endpoint- https://api.digitransit.fi/routing/v1/routers/finland/index/graphql
+
+{
+  routes(name: "588", transportModes: BUS) {
+    gtfsId
+    shortName
+    longName
+    mode
+    stops {
+      gtfsId
+      lon
+      lat
+    }
+  }
+}
+
+
+
+
+
+2.
+graphql endpoint- https://api.digitransit.fi/routing/v1/routers/finland/index/graphql
+
+{
+  stopsByRadius(lat: 60.26263, lon: 25.116406, radius: 300) {
+    edges {
+      node {
+        stop {
+          gtfsId
+          name
+          lon
+          lat
+        }
+        distance
+      }
+    }
+  }
+}
+
+3.
+
+https://api.digitransit.fi/geocoding/v1/search?text=kamppi&focus.point.lat=60.2&focus.point.lon=25.11
